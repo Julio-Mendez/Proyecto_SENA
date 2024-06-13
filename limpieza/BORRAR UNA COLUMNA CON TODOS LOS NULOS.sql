@@ -1,0 +1,2 @@
+ALTER TABLE Inventario
+DROP COLUMN NoName

@@ -1,0 +1,23 @@
+ALTER TABLE Inventario ALTER COLUMN codigo_regional INT;
+ALTER TABLE Inventario ALTER COLUMN regional VARCHAR (50);
+ALTER TABLE Inventario ALTER COLUMN codigo_sede INT;
+ALTER TABLE Inventario ALTER COLUMN nombre_sede VARCHAR (50);
+ALTER TABLE Inventario ALTER COLUMN ficha INT;
+ALTER TABLE Inventario ALTER COLUMN nivel_formacion VARCHAR (50)
+ALTER TABLE Inventario ALTER COLUMN codigo_programa INT;
+ALTER TABLE Inventario ALTER COLUMN version_programa INT;
+ALTER TABLE Inventario ALTER COLUMN nombre_programa VARCHAR (100);
+ALTER TABLE Inventario ALTER COLUMN fecha_inicio DATETIME;
+ALTER TABLE Inventario ALTER COLUMN fecha_fin DATETIME;
+ALTER TABLE Inventario ALTER COLUMN jornada VARCHAR (50);
+ALTER TABLE Inventario ALTER COLUMN tipo_documento VARCHAR (10);
+ALTER TABLE Inventario ALTER COLUMN numero_documento INT;
+ALTER TABLE Inventario ALTER COLUMN numero_certificado NVARCHAR(100);
+ALTER TABLE Inventario ALTER COLUMN fecha_certificado NVARCHAR (30);
+ALTER TABLE Inventario ALTER COLUMN numero_ruta INT;
+ALTER TABLE Inventario ALTER COLUMN nombre_ruta NVARCHAR (200);
+ALTER TABLE Inventario ALTER COLUMN estado_ficha NVARCHAR (30);
+ALTER TABLE Inventario ALTER COLUMN novedad NVARCHAR (50);
+ALTER TABLE Inventario ALTER COLUMN motivo_novedad NVARCHAR (255);
+ALTER TABLE Inventario ALTER COLUMN fecha_registro NVARCHAR (100);
+ALTER TABLE Inventario ALTER COLUMN estado_aprendiz NVARCHAR (50);
